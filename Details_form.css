@@ -1,0 +1,74 @@
+.class1{
+    background-color: aqua;
+    text-align: center;
+    text-decoration: wavy;
+    font-family: cursive;
+    border-radius: 15px;
+}
+.class2,.class3{
+    background-color:aquamarine;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+
+}
+
+*{
+    background-color:rgb(80, 198, 198);
+    margin:5px;
+    padding: 5px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 700;
+    border-color:black;
+    box-sizing: border-box;
+
+}
+
+.container{
+    padding: 5px 20px 15px 20px;
+    border: 3px solid black ;
+    border-radius: 10px;
+    user-select: none;
+}
+
+input[type="text"],
+input[type="radio"],
+input[type="date"], 
+input[type="number"], 
+input[type="email"], 
+textarea,#BloodGroup{
+    padding: 4px;
+    background-color:azure;
+    font: normal,bold ;
+    border-radius: 5px;
+    border: 1px solid darkblue;
+    margin: 7px;         /*distance between of every above mentioned areas*/
+}
+
+input[type="Submit"],input[type="Reset"]{
+    background-color: greenyellow;
+    color: rgb(244, 15, 15);
+    border:2px solid darkred;
+    border-style: double;
+    border-radius: 5px;
+}
+
+input[type="Submit"]:hover{
+background-color: aqua;
+}
+input[type="Reset"]:hover{
+background-color: aquamarine;
+}
+
+input[type="Submit"]:active{
+    transform: scale(0.94);
+}
+input[type="Reset"]:active{
+    transform: scale(0.94);
+}
+
+.eksaath{
+    display: flex;
+    padding: 10px;
+    margin: 0;
+}

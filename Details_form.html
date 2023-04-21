@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details_form</title>
+    <link rel="stylesheet" href="Details_form.css">
+</head>
+<body>
+    <div class="container">
+    <p class="class2">Welcome this site is created by Bisal Kumar----</p>
+    <h4 class="class1">Contact Form</h4>
+    <p class="class3">please fill ur details carefully</p>
+    <p>NAME:-<input type="text" name="name" id="name" placeholder="ENTER YOUR NAME" required></p>
+    <p>Guardian Name:<input type="text" name="guardian name" id="guardian name" placeholder="Guardian name" required> </p>
+    <fieldset>
+         <legend>Gender</legend>
+ <p>
+    Male<input type="radio" name="gender" id="Male" required>
+    Female<input type="radio" name="gender" id="Female" required>
+    Others<input type="radio" name="gender" id="others" required>
+ </p>
+    </fieldset>
+    <p>DOB:<input type="date" name="DOB" id="DOB" required></p>
+    <p>Blood Group: 
+        <select name="Blood Group" id="BloodGroup" required>
+        <option value="">--Blood Group--</option>
+        <option value="A+">A+</option>
+        <option value="B+">B+</option>
+        <option value="AB+">AB+</option>
+        <option value="O+">O+</option>
+        <option value="A-">A-</option>
+        <option value="B-">B-</option>
+        <option value="AB-">AB-</option>
+        <option value="O-">O-</option>
+        
+        </select>
+    </p>
+    <p>EMAIL:<input type="email" name="email" id="email"  placeholder="blackkohinoor@gmail.com" required></p>
+    <p>Contact:<input type="number" name="contact" id="contact" placeholder="+91 12345678910" required></p>
+    <p>Address: <textarea name="address" id="address" rows="07" cols="30"></textarea> </p>
+    <p>Pincode: <input type="number" name="pincode" id="pincode" placeholder="0000000" required></p>
+    <p>Upload Photo<input type="file" name="file" id="file" required></p>
+   <div class="eksaath">
+    <input type="Submit" value="Submit"></p> 
+    <input type="Reset" value="Reset"></p>
+</div>
+</div>                                                         
+</body>
+</html>
